@@ -1,0 +1,30 @@
+{
+  "name": "slack-mailreminder",
+  "version": "0.1.0",
+  "description": "slack command to send quick note email to someone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//slack-mailreminder"
+  },
+  "author": "jpalala <deterium73@gmail.com> (https://github.com/jpalala)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpalala/mailreminder/issues"
+  },
+  "homepage": "https://github.com/jpalala/mailreminder",
+  "dependencies": {
+    "nodemailer": "^1.8.0",
+    "querystring": "0.2.0",
+    "slack-notify": "0.1.4"
+  }
+}
